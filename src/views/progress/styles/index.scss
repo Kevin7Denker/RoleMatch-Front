@@ -1,0 +1,25 @@
+.main {
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-background);
+
+  .main-text {
+    margin-top: 1.2rem;
+    color: var(--dark-text);
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .main-copyright {
+    color: var(--dark-text);
+    font-size: 1rem;
+    position: absolute;
+    margin: 0.5rem;
+    bottom: 5%;
+  }
+}
